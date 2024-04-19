@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 
-export default function Users() {
+export default function FetchUser() {
   const [user, setUser] = useState([]);
   const [identifier, setIdentifier] = useState(1);
   const [loading, setLoading] = useState(false);
