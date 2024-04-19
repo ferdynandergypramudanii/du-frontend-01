@@ -6,9 +6,9 @@ const UserLayout = ({ children }) => {
   return (
     <>
       <Navbar />
-      <div className="min-h-screen mt-[90px] mb-[547px] px-4 sm:px-16">
+      <main className="h-screen mt-[100px] mb-[547px] px-4 sm:px-16">
         {children}
-      </div>
+      </main>
       <Footer />
     </>
   );

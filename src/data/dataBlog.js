@@ -96,11 +96,11 @@ export const dataBlog = [
     description:
       "Quis ex veniam occaecat nostrud ex incididunt laboris velit veniam dolor enim deserunt eu ad.",
   },
-  {
-    id: 16,
-    img: "../../public/image16.jpg",
-    title: "API",
-    description:
-      "Ipsum deserunt ullamco exercitation laborum officia ea est ullamco nulla sunt quis Lorem elit.",
-  },
+  // {
+  //   id: 16,
+  //   img: "../../public/image16.jpg",
+  //   title: "API",
+  //   description:
+  //     "Ipsum deserunt ullamco exercitation laborum officia ea est ullamco nulla sunt quis Lorem elit.",
+  // },
 ];
