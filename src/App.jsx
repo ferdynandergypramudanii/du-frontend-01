@@ -1,7 +1,9 @@
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import Home from "./pages/Home";
 import Blog from "./pages/Blog";
-import FetchUser from "./components/FetchUser";
+import UserList from "./pages/UserList";
+import AddUser from "./pages/AddUser";
+import EditUser from "./pages/EditUser";
 
 function App() {
   return (
@@ -10,7 +12,10 @@ function App() {
         <Route path="/" element={<Navigate to="/home" />} />
         <Route path="/home" element={<Home />} />
         <Route path="/blog" element={<Blog />} />
-        <Route path="/users" element={<FetchUser />} />
+        <Route path="/user" element={<UserList />} />
+        // Nanti dibuat nested route
+        <Route path="/user/add" element={<AddUser />} />
+        <Route path="/user/edit/:id" element={<EditUser />} />
       </Routes>
     </BrowserRouter>
   );
